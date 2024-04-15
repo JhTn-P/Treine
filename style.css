@@ -19,7 +19,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 26px;
-  margin-bottom: 55px;
 }
 
 ul {
@@ -51,6 +50,7 @@ ul {
 main {
   display: flex;
   justify-content: space-between;
+  margin: 55px auto 80px;
 }
 
 h1 {
@@ -106,8 +106,6 @@ footer {
   line-height: 28px;
 
   text-align: center;
-
-  margin-top: 80px;
 }
 
 footer a {
@@ -115,6 +113,7 @@ footer a {
 }
 
 #balls {
+  position: fixed;
   bottom: 0;
   right: 0;
 }
